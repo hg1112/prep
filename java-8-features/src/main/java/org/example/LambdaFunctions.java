@@ -33,7 +33,7 @@ public class LambdaFunctions {
         arr.forEach(a -> {
             int b = a * factor;
             String s = "Code block " + b;
-//            return s; // try this -> it will say compilation failure as foreach does not expect a return
+//          return s; // try this -> it will say compilation failure as foreach does not expect a return
         });
     }
 
